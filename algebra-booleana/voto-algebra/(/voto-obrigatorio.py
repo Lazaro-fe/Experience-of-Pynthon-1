@@ -4,13 +4,13 @@ os.system("clear")
 
 # Solicitando dados do Usuário
 
-idade = int(input("Qual é a sua idade?"))
+idade = int(input("Qual é a sua idade? "))
 
 # Processamento
 
 if idade < 16 :
     print("Não podem votar!")
-elif idade > 18 :
+elif idade < 18 :
     print("Voto Opcional!")
 if idade <= 65:
     print("Voto obrigatorio!")

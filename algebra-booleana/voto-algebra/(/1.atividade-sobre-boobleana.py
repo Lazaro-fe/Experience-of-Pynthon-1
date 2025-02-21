@@ -4,7 +4,7 @@ os.system("clear")
 
 # Solicintando dados ao Usuário
 
-idade = int(input("Qual é sua idade?"))
+idade = int(input("Qual é sua idade? "))
 
 # Verificando os dados informados pelo Usuário
 if idade >= 18 or idade <= 65:
