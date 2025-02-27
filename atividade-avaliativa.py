@@ -4,7 +4,7 @@ os.system("clear")
 
 # Solicitando os dados ao Usuario
 print("""
-==============Dias da Semana ===============
+============== Dias da Semana ===============
 codigo    \t Dia da semana
 1         \t\tDomingo
 2         \t\tSegunda
@@ -19,7 +19,7 @@ opcao = int(input("Digite o código correspondente ao dia da semana : "))
 
 #Verificando
 
-match opcao:# type: ignore
+match opcao:
     case 1 :
         dia = "Domingo"
         semana = "Final de semana"
@@ -41,6 +41,9 @@ match opcao:# type: ignore
     case 7 :
         dia = "Sábado"
         semana = "Final de Semana"
+    case _:
+        dia = "Inválido"
+        semana = ""
 
 # Exibindo Resultados 
 print()
