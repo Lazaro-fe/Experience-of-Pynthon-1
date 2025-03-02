@@ -31,7 +31,7 @@ match pagamento:
         valor_inicial2 = valor_do_produto_comprado
         print(f"Valor obtido : {valor_da_parcela}")
         print(f"Valor do Produto : {valor_do_produto_comprado}")
-        print(f"Valor da Parcela : {valor_da_parcela}")
+        print(f"Valor da Parcela : {parcelas}")
     case _:
         print()
         print("====OPERAÇÃO INVÁLIDA====")
