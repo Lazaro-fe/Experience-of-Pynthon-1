@@ -9,7 +9,7 @@ idade = int(input("Qual é a sua idade? "))
 # Processamento
 
 if idade < 16 :
-    print("Não podem votar!")
+    print("Não pode votar!")
 elif idade < 18 :
     print("Voto Opcional!")
 if idade <= 65:
