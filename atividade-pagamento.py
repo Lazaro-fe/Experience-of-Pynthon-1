@@ -15,7 +15,6 @@ print("""
 print()
 pagamento = int(input("Digite sua forma de pagamento : "))
 
-os.system('cls'if os.name == 'nt' else 'clear')
 # Verficando 
 match pagamento:
     case 1:
