@@ -1,7 +1,7 @@
 # Limpeza do Terminal
 import os
 os.system("clear")
-os.system('cls'if os.name == 'nt' else 'clear')
+
 
 # Solicitando dados ao Usuário
 
