@@ -13,6 +13,7 @@ while True:
     else:
         break
 
+print()
 print(f"Primeira nota informada : {n1}")
 print(f"Segunda nota informada : {n2}")
 print(f"Média : {media}")
