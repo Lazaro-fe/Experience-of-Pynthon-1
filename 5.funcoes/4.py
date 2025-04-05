@@ -6,7 +6,7 @@ def contar_pares_impares():
     pares = 0
     impares = 0
 
-    for i in range(6):
+    for i in range(5):
         numero = int(input("Digite um número : "))
         if numero % 2 == 0:
             pares += 1
