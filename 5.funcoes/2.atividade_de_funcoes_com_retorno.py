@@ -2,10 +2,10 @@ import os
 os.system("clls || clear")
 
 
-notas = 0
+nota = float(input("Digite uma nota : "))
 quantidade_de_notas = 3
 
-def verificar(notas):
+def verificar():
     for i in range(3):
         if resultados >= 7:
             print(" Você está Aprovado !!! =) ")
@@ -14,8 +14,8 @@ def verificar(notas):
         else :
             print("Não foi possivel ver nota")
 
-notas += float(input("Digite uma nota : "))
-quantidade_de_notas == notas
-resultados = notas / 3
+nota += float(input("Digite uma nota : "))
+quantidade_de_notas == nota
+resultados = nota / 3
 print()
 print(f"Média : {resultados:.2f}")
