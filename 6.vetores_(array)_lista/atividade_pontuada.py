@@ -39,4 +39,4 @@ def INSS(salario_base):
     return desconto
 
 def IRRF(salario_base, dependentes):
-    if s
+    calculo_do_irrf = salario_base - (189.59 * dependentes)
