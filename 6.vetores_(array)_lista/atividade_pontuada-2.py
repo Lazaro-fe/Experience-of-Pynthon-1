@@ -12,6 +12,7 @@ def obtendo_dados_do_funcionario():
     vale_transporte = input("Deseja receber vale transporte 'sim' ou 'não' : ").lower() == 'sim'
     vale_refeicao = float(input("Informe o valor do vale refeição fornecido pela empresa em R$ : "))
     dependentes = int(input("Informe a quantidade de dependentes que possui na sua casa : "))
+    return salario_base, vale_transporte, vale_refeicao, dependentes
 
 def calcular_vale_transporte(salario_base, vale_transporte):
     if vale_transporte == "sim":
@@ -24,3 +25,18 @@ def plano_de_saude(dependentes):
 
 def calculo_do_vale_refeição(vale_refeicao):
     return vale_refeicao * 0.20
+
+def INSS(salario_base):
+    if salario_base < 1518.00:
+        desconto = salario_base * 0.75
+    elif salario_base > 1518.01 and salario_base <= 2793.88:
+        desconto = salario_base * 0.09 - 113.85
+    elif salario_base > 2793.89 and salario_base <= 4190.83:
+        desconto = salario_base * 0.12 - 189.54
+    elif salario_base > 4190.84 and salario_base <= 8157.41:
+        desconto = salario_base * 0.14 - 318.38
+    
+    return desconto
+
+def IRRF(salario_base, dependentes):
+    if s
