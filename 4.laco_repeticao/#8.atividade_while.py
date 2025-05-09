@@ -20,4 +20,4 @@ while True:
 media = soma / contador
 
 print()
-print(f"\nMédia : {media}")
+print(f"\nMédia : {media:.2f}")
