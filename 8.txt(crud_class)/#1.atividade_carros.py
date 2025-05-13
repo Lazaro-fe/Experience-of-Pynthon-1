@@ -34,7 +34,7 @@ for car in lista_de_carros:
     print()
 
 print("== Salvando os dados dos clientes ==")
-nome_do_arquivo = "dados_clientes.txt"
+nome_do_arquivo = "dados_dos_carros.txt"
 
 with open(nome_do_arquivo, "a") as arquivo:
     for car in lista_de_carros:
