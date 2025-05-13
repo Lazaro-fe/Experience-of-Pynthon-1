@@ -1,2 +1,0 @@
-Marca: Porsche, Modelo : Carrera, Categoria : Desportivos, Preço : R$ 868000.0Marca: Koenigsegg, Modelo : Gemera, Categoria : Hyper car de rua, Preço : R$ 20000000.0Marca: Porsche, Modelo : Carrera, Categoria : Desportivos, Preço : R$ 868000.0
-Marca: Koenigsegg, Modelo : Gemera, Categoria : Hyper de rua, Preço : R$ 20000000.0
