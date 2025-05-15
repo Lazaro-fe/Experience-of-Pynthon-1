@@ -6,7 +6,7 @@ os.system("cls || clear")
 @dataclass
 class Funcionarios:
     nome : str
-    data_de_emissao : float
+    data_de_admissao : str
     matrícula : str
     endereco : str
 
