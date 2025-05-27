@@ -1,2 +1,0 @@
-Marca: Porsche, Modelo : Esportivos, Categoria : 911, Preço : R$ 993000.0
-Marca: Koenigsegg, Modelo : Gemera, Categoria : Hyper car, Preço : R$ 20000000.0
